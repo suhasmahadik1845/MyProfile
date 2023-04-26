@@ -2,6 +2,49 @@
 <html>
   <head>
     <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "Roboto Slab", serif;
+      }
+
+      label {
+        color: cadetblue;
+
+        font-size: x-large;
+      }
+
+      input {
+        width: 400px;
+
+        height: 25px;
+
+        border-radius: 10px;
+
+        border: 1px solid burlywood;
+        color: cyan;
+        text-transform: uppercase;
+      }
+
+      input[type="text"]{
+
+text-transform: capitalize;
+
+}
+
+input[type="email"]{
+
+color: chocolate;
+
+}
+
+    </style>
   </head>
   <body>
     <h2>Contact Us</h2>
@@ -32,7 +75,10 @@
         <td><input type="text" id="email" placeholder="E.abc@gmail.com" /></td>
       </tr>
       <tr>
-        <td><b>Enquiry:</b></td>
+        <td>
+          <label for="enquiry"> <b>Enquiry:</b></label>
+        </td>
+        
         <td><textarea rows="5" cols="25"> </textarea></td>
       </tr>
       <tr>
